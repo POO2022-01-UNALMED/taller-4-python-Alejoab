@@ -1,3 +1,4 @@
+from cgi import print_arguments
 from classroom.asignatura import Asignatura
 from classroom.grupo import Grupo
 
@@ -15,6 +16,7 @@ if __name__ == "__main__":
     grupo3 = Grupo()
     grupo4 = Grupo()
     grupo5 = Grupo()
+
     grupo3.agregarAlumno("Kelly")
     grupo4.agregarAlumno("Santiago", ["Jaime", "Pedro"])
     grupo5.agregarAlumno("Javier")
